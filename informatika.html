@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        marquee{
+            color: rgb(255, 255, 255);
+            font-size: xx-large;
+            font-weight: bold;
+        }
+        #name{
+            font-size: large;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(80deg, gold, #ff99cc, #66ccff);
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 40px;
+            text-align: justify;
+            background-color: #fff;
+            border-radius: 5px;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Моя перша сторінка</title>
+</head>
+<body>
+
+<header>
+    <marquee direction = "right" behavior =  "alternate"> Моя перша сторінка</marquee>
+    <marquee id="name" direction = "left" behavior =  "alternate"> Заскока Поліна 73</marquee>
+</header>
+
+<nav>
+    <a href="#biography">Про мене</a>
+    <a href="#friends">Мої друзі</a>
+    <a href="#contact">Адреса і телефон</a>
+</nav>
+
+<section id="biography">
+    <h2>Про мене</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga deleniti labore dolorem eos itaque perferendis voluptatibus, laudantium nemo neque! Nobis, commodi ratione obcaecati ipsum numquam quas praesentium ipsam hic deserunt.</p>
+</section>
+
+<section id="friends">
+    <h2>Мої друзі</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A amet rem eos fuga sit nobis tempora, alias neque aspernatur quas excepturi exercitationem praesentium iure delectus molestias magnam dolore distinctio recusandae.</p>
+</section>
+
+<section id="contact">
+    <h2>Контактные данные</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel culpa laboriosam nemo omnis doloremque iste temporibus. Eaque placeat enim ipsam, deserunt impedit commodi veniam expedita quod ex iste modi.</p>
+</section>
+
+
+</body>
+</html>
